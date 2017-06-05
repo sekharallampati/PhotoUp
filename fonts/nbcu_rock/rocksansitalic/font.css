@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Rock-SansItalic';
+  src: url('Rock-SansItalic.eot');
+  src: url('Rock-SansItalic.woff2') format('woff2'),
+       url('Rock-SansItalic.woff') format('woff'),
+       url('Rock-SansItalic.ttf') format('truetype'),
+       url('Rock-SansItalic.svg#Rock-SansItalic') format('svg'),
+       url('Rock-SansItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

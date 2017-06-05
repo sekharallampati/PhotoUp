@@ -1,0 +1,222 @@
+body{
+	font-family:"Rock-SansNormal";
+	margin:0;
+}
+/*@font-face {
+  font-family: "nbcunow-font";
+  src: url("../fonts/nbcunow-font/nbcunow-font.eot");
+  src: url("../fonts/nbcunow-font/nbcunow-font.eot?#iefix") format("embedded-opentype"), url("../fonts/nbcunow-font/nbcunow-font.woff") format("woff"), url("../fonts/nbcunow-font/nbcunow-font.ttf") format("truetype"), url("../fonts/nbcunow-font/nbcunow-font.  svg#nbcunow-font") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+*/
+@font-face {
+  font-family: 'Rock-SansNormal';
+  src: url("../fonts/nbcu_rock/rocksansnormal/Rock-SansNormal.eot");
+  src: url("../fonts/nbcu_rock/rocksansnormal/Rock-SansNormal.woff2") format("woff2"), url("../fonts/nbcu_rock/rocksansnormal/Rock-SansNormal.woff") format("woff"), url("../fonts/nbcu_rock/rocksansnormal/Rock-SansNormal.ttf") format("truetype"), url("../fonts/nbcu_rock/rocksansnormal/Rock-SansNormal.svg#Rock-SansNormal") format("svg"), url("../fonts/nbcu_rock/rocksansnormal/Rock-SansNormal.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*
+@font-face {
+  font-family: 'Rock-SansItalic';
+  src: url("../fonts/nbcu_rock/rocksansitalic/Rock-SansItalic.eot");
+  src: url("../fonts/nbcu_rock/rocksansitalic/Rock-SansItalic.woff2") format("woff2"), url("../fonts/nbcu_rock/rocksansitalic/Rock-SansItalic.woff") format("woff"), url("../fonts/nbcu_rock/rocksansitalic/Rock-SansItalic.ttf") format("truetype"), url("../fonts/nbcu_rock/rocksansitalic/Rock-SansItalic.svg#Rock-SansItalic") format("svg"), url("../fonts/nbcu_rock/rocksansitalic/Rock-SansItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Rock-SansBold';
+  src: url("../fonts/nbcu_rock/rocksansbold/Rock-SansBold.eot");
+  src: url("../fonts/nbcu_rock/rocksansbold/Rock-SansBold.woff2") format("woff2"), url("../fonts/nbcu_rock/rocksansbold/Rock-SansBold.woff") format("woff"), url("../fonts/nbcu_rock/rocksansbold/Rock-SansBold.ttf") format("truetype"), url("../fonts/nbcu_rock/rocksansbold/Rock-SansBold.svg#Rock-SansBold") format("svg"), url("../fonts/nbcu_rock/rocksansbold/Rock-SansBold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Rock-SansBoldItalic';
+  src: url("../fonts/nbcu_rock/rocksansbolditalic/Rock-SansBoldItalic.eot");
+  src: url("../fonts/nbcu_rock/rocksansbolditalic/Rock-SansBoldItalic.woff2") format("woff2"), url("../fonts/nbcu_rock/rocksansbolditalic/Rock-SansBoldItalic.woff") format("woff"), url("../fonts/nbcu_rock/rocksansbolditalic/Rock-SansBoldItalic.ttf") format("truetype"), url("../fonts/nbcu_rock/rocksansbolditalic/Rock-SansBoldItalic.svg#Rock-SansBoldItalic") format("svg"), url("../fonts/nbcu_rock/rocksansbolditalic/Rock-SansBoldItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Copernicus-Bold';
+  src: url("../fonts/nbcu_copernicus/copernicusbold/Copernicus-Bold.eot");
+  src: url("../fonts/nbcu_copernicus/copernicusbold/Copernicus-Bold.woff2") format("woff2"), url("../fonts/nbcu_copernicus/copernicusbold/Copernicus-Bold.woff") format("woff"), url("../fonts/nbcu_copernicus/copernicusbold/Copernicus-Bold.ttf") format("truetype"), url("../fonts/nbcu_copernicus/copernicusbold/Copernicus-Bold.svg#Bold") format("svg"), url("../fonts/nbcu_copernicus/copernicusbold/Copernicus-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Copernicus-BoldItalic';
+  src: url("../fonts/nbcu_copernicus/copernicusbolditalic/Copernicus-BoldItalic.eot");
+  src: url("../fonts/nbcu_copernicus/copernicusbolditalic/Copernicus-BoldItalic.woff2") format("woff2"), url("../fonts/nbcu_copernicus/copernicusbolditalic/Copernicus-BoldItalic.woff") format("woff"), url("../fonts/nbcu_copernicus/copernicusbolditalic/Copernicus-BoldItalic.ttf") format("truetype"), url("../fonts/nbcu_copernicus/copernicusbolditalic/Copernicus-BoldItalic.svg#BoldItalic") format("svg"), url("../fonts/nbcu_copernicus/copernicusbolditalic/Copernicus-BoldItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Copernicus-Book';
+  src: url("../fonts/nbcu_copernicus/copernicusbook/Copernicus-Book.eot");
+  src: url("../fonts/nbcu_copernicus/copernicusbook/Copernicus-Book.woff2") format("woff2"), url("../fonts/nbcu_copernicus/copernicusbook/Copernicus-Book.woff") format("woff"), url("../fonts/nbcu_copernicus/copernicusbook/Copernicus-Book.ttf") format("truetype"), url("../fonts/nbcu_copernicus/copernicusbook/Copernicus-Book.svg#Book") format("svg"), url("../fonts/nbcu_copernicus/copernicusbook/Copernicus-Book.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Copernicus-BookItalic';
+  src: url("../fonts/nbcu_copernicus/copernicusbookitalic/Copernicus-BookItalic.eot");
+  src: url("../fonts/nbcu_copernicus/copernicusbookitalic/Copernicus-BookItalic.woff2") format("woff2"), url("../fonts/nbcu_copernicus/copernicusbookitalic/Copernicus-BookItalic.woff") format("woff"), url("../fonts/nbcu_copernicus/copernicusbookitalic/Copernicus-BookItalic.ttf") format("truetype"), url("../fonts/nbcu_copernicus/copernicusbookitalic/Copernicus-BookItalic.svg#BookItalic") format("svg"), url("../fonts/nbcu_copernicus/copernicusbookitalic/Copernicus-BookItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Copernicus-Medium';
+  src: url("../fonts/nbcu_copernicus/copernicusmedium/Copernicus-Medium.eot");
+  src: url("../fonts/nbcu_copernicus/copernicusmedium/Copernicus-Medium.woff2") format("woff2"), url("../fonts/nbcu_copernicus/copernicusmedium/Copernicus-Medium.woff") format("woff"), url("../fonts/nbcu_copernicus/copernicusmedium/Copernicus-Medium.ttf") format("truetype"), url("../fonts/nbcu_copernicus/copernicusmedium/Copernicus-Medium.svg#Medium") format("svg"), url("../fonts/nbcu_copernicus/copernicusmedium/Copernicus-Medium.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Copernicus-MediumItalic';
+  src: url("../fonts/nbcu_copernicus/copernicusmediumitalic/Copernicus-MediumItalic.eot");
+  src: url("../fonts/nbcu_copernicus/copernicusmediumitalic/Copernicus-MediumItalic.woff2") format("woff2"), url("../fonts/nbcu_copernicus/copernicusmediumitalic/Copernicus-MediumItalic.woff") format("woff"), url("../fonts/nbcu_copernicus/copernicusmediumitalic/Copernicus-MediumItalic.ttf") format("truetype"), url("../fonts/nbcu_copernicus/copernicusmediumitalic/Copernicus-MediumItalic.svg#MediumItalic") format("svg"), url("../fonts/nbcu_copernicus/copernicusmediumitalic/Copernicus-MediumItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+  */
+#loading{
+	position: relative;
+	top:5px;
+}
+#loading img{
+	width:20px;
+}
+#user-image{
+	font-family:"Rock-SansNormal";
+	font-weight:bold;
+	font-size:13px;
+}
+#upload-submit, #delete-submit{
+	cursor: pointer;
+	font-family:"Rock-SansNormal";
+	font-weight:bold;
+	border: 1px solid #666;
+	padding: 2px;
+	color: #303b42;
+}
+.cr-slider{
+	width:100px;
+}
+.header-form-label {
+	font-size:20px; 
+	color: #333333;
+	background-color:#F4F5F7;
+	padding:8px;
+}
+.header-form-content{
+	color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+}
+#header-label-wrapper{
+	background:#E7EDEF;
+	padding:8px;
+}
+.header-label{
+	font-size:12px; 
+	color: #787aae;
+	border-top: #E3E5E6;
+	height:32px;
+}
+.header-form-desc{
+	font-size:12px;
+	color: #999999;
+	padding:8px;
+}
+.header-photo-upload-desc{
+	/* font-size:11px; */
+	font-weight: 400;
+	color: #EA4335;
+	
+}
+.header-form-desc .error{
+  font-size:12px;
+  color:red;
+  font-weight:bold;
+  padding:10px;
+}
+.header-form-desc .success{
+  font-size:12px;
+  color:green;
+  font-weight:bold;
+  padding:10px;
+}
+.nbcunow-footer-copyright {
+    background-color: #080d15;
+    padding: 14px 8px;
+    text-align: center;
+    /* width: 100%; */
+    margin-top:25px;
+}
+.nbcunow-footer-copyright span {
+    color: #fff;
+    font-family: "Rock-SansNormal";
+    font-size: 10px;
+}
+#nbcunow-logo-wrapper{
+	padding: 2px 41px;
+	border-bottom: 1px solid #e3e5e6;
+}
+.nbcunow-logo {
+    background-image: url("../images/NBCUN-logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    margin: 22px auto;
+	text-align:left;
+}
+.secondary-menu {
+    background-color: #360279;
+	height:40px;
+}
+#image-container{
+	/* height:200px; */
+	height:154px;
+	padding: 10px;
+	border: 1px solid #E3E5E6;
+	margin-top: 10px;
+}
+#upload-form-wrapper{
+	width:100%;
+}
+#upload-form-submit{
+	padding:8px;
+}
+#upload-form-header{
+	text-align:left;
+}
+#upload-form-content{
+	text-align:center;
+}
+.float-right {
+    float: right !important;
+}
+.secondary-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    text-align: right;
+}
+.secondary-menu .nbcu-mobile-profile-button {
+    position: relative;
+}
+.secondary-menu ul li {
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    padding: 15px 40px 7px 0;
+    text-transform: uppercase;
+}
+.secondary-menu ul li a {
+    color: #fff;
+}
+a {
+    color: #2199e8;
+    cursor: pointer;
+    line-height: inherit;
+    text-decoration: none;
+}
